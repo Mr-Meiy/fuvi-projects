@@ -13,7 +13,7 @@ const usersAapi = 'https://60cf9e924a030f0017f67dc3.mockapi.io/api/zenprojectlis
                         window.location.href = './mentor.html';
                         document.getElementById('mentorname').innerText = localStorage.getItem("user");
                     } else {
-                        document.getElementById('password')
+                        alert("Invalid Credentials");
                     }
                 })
                 .catch(err => console.log(err));
